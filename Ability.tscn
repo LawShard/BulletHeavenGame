@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://drne04qpkgvc8"]
+
+[node name="Control" type="Node"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = -90.0
+offset_top = -133.0
+offset_right = 88.0
+offset_bottom = 131.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect2" type="ColorRect" parent="ColorRect"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 7.0
+offset_right = 172.0
+offset_bottom = 257.0
+
+[node name="ColorRect3" type="ColorRect" parent="ColorRect/ColorRect2"]
+layout_mode = 0
+offset_left = 5.0
+offset_top = 129.0
+offset_right = 160.0
+offset_bottom = 246.0
+color = Color(0.408329, 0.408329, 0.408329, 1)
+
+[node name="RichTextLabel" type="RichTextLabel" parent="ColorRect/ColorRect2/ColorRect3"]
+layout_mode = 0
+offset_left = 4.0
+offset_top = 3.0
+offset_right = 152.0
+offset_bottom = 113.0
+text = "q"
